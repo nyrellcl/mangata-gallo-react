@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mangata-gallo-react/static/css/main.3baafdbd.css",
+    "main.js": "/mangata-gallo-react/static/js/main.f5115643.js",
+    "static/media/pexels-pixabay-266621.jpg": "/mangata-gallo-react/static/media/pexels-pixabay-266621.7b5b2b76393c9ed16c9e.jpg",
+    "static/media/Asset 3@3x.png": "/mangata-gallo-react/static/media/Asset 3@3x.b3eedbad1ae5d4f3104d.png",
+    "static/media/Asset 2@3x.png": "/mangata-gallo-react/static/media/Asset 2@3x.becfeb21f0b90d59d7ec.png",
+    "index.html": "/mangata-gallo-react/index.html",
+    "main.3baafdbd.css.map": "/mangata-gallo-react/static/css/main.3baafdbd.css.map",
+    "main.f5115643.js.map": "/mangata-gallo-react/static/js/main.f5115643.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3baafdbd.css",
+    "static/js/main.f5115643.js"
+  ]
+}
