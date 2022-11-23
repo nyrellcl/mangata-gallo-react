@@ -8,6 +8,9 @@ This was an extremlely satisfying project, learning on the go helps to strengthe
 
 This project was also heavily influence by Brian Design on youtube. I followed through his tutorial on making a react website just so I can see how other people structure their code and see how it fits with my style. I also used some of his components and built off of it to include my own take on it. 
 
+# Colors
+I decided go with an earth tone color palette. I mostly took this idea due to the fact that jewels and such are formed in the ground, so I though an earthy tone to the project would flow nicely. Earth tones also exude harmony in my opinion and with jewelry, harmony is an important aspect when garnering attention and elegance to a jewelry product. 
+
 ## Resources Used
 
 React Documentation: https://reactjs.org/docs/getting-started.html 
