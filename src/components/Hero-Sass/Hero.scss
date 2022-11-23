@@ -1,0 +1,81 @@
+@import '../Global-Sass/colors/colors', '../Global-Sass/fonts/fonts', '../Global-Sass/mixin/mixin';
+
+/*.hero-section{
+    color: #fff;
+}*/
+
+.heading{
+    color: $accent1;
+}
+
+.heading.dark{
+    color: $accent4;
+}
+
+.hero-subtitle.dark{
+    color: $accent4;
+}
+
+.hero-subtitle{
+    color: $accent1;
+}
+
+.darkBg{
+    background-color: $accent4;
+}
+
+.displayButton{
+    display: block;
+}
+
+.noButton{
+    display: none;
+}
+@media only screen and (min-width: 375px) {
+    .hero-content {
+        @include align-flex;
+        height: 90vh;
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        flex-direction: column;
+        gap: rem(24);
+
+        h1 {
+            font-family: $cin, $ser;
+            font-size: rem(28);
+            letter-spacing: rem(1);
+            color: $accent1;
+
+        }
+        p {
+            font-family: $rale, $sans;
+            line-height: rem(28);
+            font-weight: 500;
+            letter-spacing: rem(1);
+            color: $accent1;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .hero-content{
+        text-align: left;
+        align-items: flex-start;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .hero-content{
+        h1{
+            font-size: 4.5rem;
+        }
+    }
+}

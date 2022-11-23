@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap");
+.btn {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 250ms ease-in-out;
+}
+.btn:not([disabled]):hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: hsl(29deg, 60%, 93%);
+  color: hsl(283deg, 9%, 47%);
+}
+.btn-primary:not([disabled]):hover {
+  background-color: transparent;
+  border: 2px solid hsl(29deg, 60%, 93%);
+  color: hsl(29deg, 60%, 93%);
+}
+
+.btn-secondary {
+  background-color: hsl(283deg, 9%, 47%);
+  color: hsl(29deg, 60%, 93%);
+}
+.btn-secondary:not([disabled]):hover {
+  background-color: transparent;
+  border: 2px solid hsl(283deg, 9%, 47%);
+  color: hsl(283deg, 9%, 47%);
+}
+
+.btn-tertiary {
+  background-color: hsl(24deg, 30%, 74%);
+  color: hsl(29deg, 60%, 93%);
+}
+.btn-tertiary:not([disabled]):hover {
+  background-color: transparent;
+  color: hsl(283deg, 9%, 47%);
+  border: 2px solid hsl(283deg, 9%, 47%);
+}
+
+.btn-normal {
+  width: 13.5625rem;
+  height: 3.5rem;
+}
+
+.btn-submit {
+  width: 7.5rem;
+  height: 2.1875rem;
+}/*# sourceMappingURL=Button.css.map */

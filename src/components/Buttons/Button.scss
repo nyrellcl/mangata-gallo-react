@@ -1,0 +1,53 @@
+@import "../Global-Sass/colors/colors", "../Global-Sass/fonts/fonts", "../Global-Sass/mixin/mixin";
+
+.btn{
+    font-family: $cin, $ser;
+    font-weight: 700;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 250ms ease-in-out;
+    @include hover{
+        cursor: pointer;;
+    }
+}
+
+.btn-primary{
+    background-color: $accent1;
+    color: $accent4;
+    @include hover{
+        background-color: transparent;
+        border: 2px solid $accent1;
+        color: $accent1;
+    }
+}
+
+.btn-secondary{
+    background-color: $accent4;
+    color: $accent1;
+    @include hover{
+        background-color: transparent;
+        border: 2px solid $accent4;
+        color: $accent4;
+    }
+}
+
+.btn-tertiary{
+    background-color: $accent3;
+    color: $accent1;
+    @include hover{
+        background-color: transparent;
+        color: $accent4;
+        border: 2px solid $accent4;
+    }
+}
+
+.btn-normal{
+    width: rem(217);
+    height: rem(56);
+}
+
+.btn-submit{
+    width: rem(120);
+    height: rem(35);
+}

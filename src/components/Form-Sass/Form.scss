@@ -1,0 +1,49 @@
+@import "../Global-Sass/colors/colors", "../Global-Sass/fonts/fonts", "../Global-Sass/mixin/mixin";
+
+@media only screen and (min-width: 375px){
+    .form-section{
+        background-color: $accent2;
+        .subscribe-heading{
+            text-align: center;
+            font-family: $cin, $ser;
+            letter-spacing: rem(1);
+            text-transform: uppercase;
+            font-size: rem(28);
+            padding: 2rem 0;
+            color: $accent4;
+        }
+        .form-container{
+            @include align-flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 1rem 0 3rem;
+            label{
+                font-family: $rale, $sans;
+                text-transform: uppercase;
+                letter-spacing: rem(1);
+                font-weight: 700;
+                color: $accent4;
+            }
+            input{
+                height: rem(35);
+                font-size: rem(18);
+                padding: 0 1rem;
+                border: none;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .form-section{
+        .subscribe-heading{
+            font-size: rem(32);
+        }
+        .form-container{
+            flex-direction: row;
+        }
+    }
+}
+

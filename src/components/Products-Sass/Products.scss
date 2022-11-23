@@ -1,0 +1,92 @@
+@import "../Global-Sass/colors/colors", "../Global-Sass/fonts/fonts", "../Global-Sass/mixin/mixin";
+
+.heading-display{
+    display: block;
+}
+
+.heading-display.none{
+    display: none;
+}
+
+
+@media only screen and (min-width: 375px){
+    .products{
+        background-color: $accent1;
+        text-align: center;
+        h2{
+            font-size: rem(28);
+            text-transform: uppercase;
+            color: $accent4;
+            padding-top: rem(60);
+        }
+        h2,h3{
+            font-family: $cin, $ser;
+            
+        }
+        .product-container{
+            @include align-flex;
+            padding-top: rem(120);
+            flex-direction: column;
+            color: $accent4;
+            letter-spacing: rem(1);
+            margin: 0 auto;
+            gap: 2rem;
+            padding-bottom: rem(60);
+            &__content{
+                @include align-flex;
+                flex-direction: column;
+                gap: 1rem;
+                width: 90%;
+                margin: 0 auto;
+                p{
+                    font-family: $rale, $sans;
+                    line-height: rem(28);
+        
+                }
+            }
+            &__secondary__content{
+                @include align-flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .products{
+        h2{
+            font-size: rem(32);
+        }
+        h3{
+            font-size: rem(24);
+        }
+        .product-container{
+            &__content{
+                p{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .products{
+        text-align: left;
+        h2{
+            font-size: rem(64);
+            text-align: center;
+        }
+        .product-container, .product-container.reverse{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .product-container{
+            flex-direction: row;
+        }
+        .product-container.reverse{
+            flex-direction: row-reverse;
+        }
+    }
+}

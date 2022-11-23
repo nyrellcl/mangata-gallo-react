@@ -1,0 +1,89 @@
+@import '../Global-Sass/colors/colors', '../Global-Sass/fonts/fonts', '../Global-Sass/mixin/mixin';
+
+
+
+@media only screen and (min-width: 375px){
+    .menu-icon{
+        display: block;
+        z-index: 10;
+    }
+    .header-bar {
+        @include align-flex;
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: $accent1;
+        position: sticky;
+        top: 0;
+    
+    }
+    
+    .nav-list {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+        position: fixed;
+        background-color: $accent1;
+        right: -100%;
+        top: 0;
+        height: 100vh;
+        width: 100%;
+        font-size: rem(48);
+        opacity: 0;
+        transition: all 0.3s linear;
+        text-align: right;
+        margin-left: auto;
+        font-family: $cin, $ser;
+        li {
+            padding: 0.5rem;
+        }
+        a{
+            letter-spacing: rem(1);
+            font-weight: 700;
+            color: $accent4;
+        }
+        
+    }
+    
+    .nav-list.active{
+        z-index: 3;
+        right: 0;
+        opacity: 0.98;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .menu-icon{
+        display: none;
+    }
+
+    .nav-list{
+        flex-direction: row;
+        width: 40%;
+        height: auto;
+        font-size: 1rem;
+        position: static;
+        justify-content: flex-end;
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    .nav-list{
+        a{
+            transition: all 250ms ease-in-out;
+            @include hover{
+                cursor: pointer;
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+}
+
+
+

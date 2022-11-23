@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap");
+.heading-display {
+  display: block;
+}
+
+.heading-display.none {
+  display: none;
+}
+
+@media only screen and (min-width: 375px) {
+  .products {
+    background-color: hsl(29deg, 60%, 93%);
+    text-align: center;
+  }
+  .products h2 {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: hsl(283deg, 9%, 47%);
+    padding-top: 3.75rem;
+  }
+  .products h2, .products h3 {
+    font-family: "Cinzel", serif;
+  }
+  .products .product-container {
+    display: flex;
+    align-items: center;
+    padding-top: 7.5rem;
+    flex-direction: column;
+    color: hsl(283deg, 9%, 47%);
+    letter-spacing: 0.0625rem;
+    margin: 0 auto;
+    gap: 2rem;
+    padding-bottom: 3.75rem;
+  }
+  .products .product-container__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .products .product-container__content p {
+    font-family: "Raleways", sans-serif;
+    line-height: 1.75rem;
+  }
+  .products .product-container__secondary__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .products h2 {
+    font-size: 2rem;
+  }
+  .products h3 {
+    font-size: 1.5rem;
+  }
+  .products .product-container__content p {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .products {
+    text-align: left;
+  }
+  .products h2 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .products .product-container, .products .product-container.reverse {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .products .product-container {
+    flex-direction: row;
+  }
+  .products .product-container.reverse {
+    flex-direction: row-reverse;
+  }
+}/*# sourceMappingURL=Products.css.map */

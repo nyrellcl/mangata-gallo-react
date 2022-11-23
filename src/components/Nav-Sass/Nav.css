@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap");
+@media only screen and (min-width: 375px) {
+  .menu-icon {
+    display: block;
+    z-index: 10;
+  }
+  .header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: hsl(29deg, 60%, 93%);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position: fixed;
+    background-color: hsl(29deg, 60%, 93%);
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    font-size: 3rem;
+    opacity: 0;
+    transition: all 0.3s linear;
+    text-align: right;
+    margin-left: auto;
+    font-family: "Cinzel", serif;
+  }
+  .nav-list li {
+    padding: 0.5rem;
+  }
+  .nav-list a {
+    letter-spacing: 0.0625rem;
+    font-weight: 700;
+    color: hsl(283deg, 9%, 47%);
+  }
+  .nav-list.active {
+    z-index: 3;
+    right: 0;
+    opacity: 0.98;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+  .nav-list {
+    flex-direction: row;
+    width: 40%;
+    height: auto;
+    font-size: 1rem;
+    position: static;
+    justify-content: flex-end;
+    right: 0;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nav-list a {
+    transition: all 250ms ease-in-out;
+  }
+  .nav-list a:not([disabled]):hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}/*# sourceMappingURL=Nav.css.map */
