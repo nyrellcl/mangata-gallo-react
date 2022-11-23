@@ -14,7 +14,7 @@ function App() {
         second="About"
         third="Products" />
       <Routes>
-        <Route path="/" element={<HeroSection />} />
+        <Route path="/" component={<HeroSection />} />
       </Routes>
       <ProductPage />
       <Form />
