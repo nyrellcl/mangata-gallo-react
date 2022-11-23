@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;400;500;700&display=swap");
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: hsl(29deg, 60%, 93%);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 @media only screen and (min-width: 375px) {
   .menu-icon {
     display: block;
     z-index: 10;
-  }
-  .header-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: hsl(29deg, 60%, 93%);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
   }
   .nav-list {
     display: flex;

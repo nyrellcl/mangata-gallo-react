@@ -1,12 +1,12 @@
 import React from 'react'
 import { productObjOne, productObjTwo, productObjThree } from '../Data'
 import Products from "../Products"
-import "../assets/pexels-pixabay-266621.jpg"
+
 
 export default function ProductPage() {
     return (
         <>
-        <Products {...productObjOne} img="../assets/pexels-pixabay-266621.jpg"/>
+        <Products {...productObjOne} />
         <Products {...productObjTwo} />
         <Products {...productObjThree}/>
         </>

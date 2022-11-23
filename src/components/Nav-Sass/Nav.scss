@@ -1,20 +1,21 @@
 @import '../Global-Sass/colors/colors', '../Global-Sass/fonts/fonts', '../Global-Sass/mixin/mixin';
 
 
+.header-bar {
+    @include align-flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: $accent1;
+    position: sticky;
+    top: 0;
+
+}
+
 
 @media only screen and (min-width: 375px){
     .menu-icon{
         display: block;
         z-index: 10;
-    }
-    .header-bar {
-        @include align-flex;
-        justify-content: space-between;
-        padding: 2rem;
-        background-color: $accent1;
-        position: sticky;
-        top: 0;
-    
     }
     
     .nav-list {

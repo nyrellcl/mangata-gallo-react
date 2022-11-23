@@ -13,6 +13,7 @@ function Nav(props) {
     const handleClick = ()=> setClick(!click)
     const closeMobileMenu = ()=> setClick(false)
     
+    
     const image = <img style={logoStyle} src={logo} alt="" onClick={closeMobileMenu}/>
     return (
         <header className='header-bar'>
