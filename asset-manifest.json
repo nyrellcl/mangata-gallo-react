@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mangata-gallo-react/static/css/main.19d47b61.css",
+    "main.css": "/mangata-gallo-react/static/css/main.03222407.css",
     "main.js": "/mangata-gallo-react/static/js/main.e8e77df1.js",
     "static/media/pexels-the-glorious-studio-10983783.jpg": "/mangata-gallo-react/static/media/pexels-the-glorious-studio-10983783.d1cbcdf7d150308ddd6f.jpg",
     "static/media/pexels-pixabay-266621.jpg": "/mangata-gallo-react/static/media/pexels-pixabay-266621.7b5b2b76393c9ed16c9e.jpg",
@@ -8,11 +8,11 @@
     "static/media/Asset 3@3x.png": "/mangata-gallo-react/static/media/Asset 3@3x.b3eedbad1ae5d4f3104d.png",
     "static/media/Asset 2@3x.png": "/mangata-gallo-react/static/media/Asset 2@3x.becfeb21f0b90d59d7ec.png",
     "index.html": "/mangata-gallo-react/index.html",
-    "main.19d47b61.css.map": "/mangata-gallo-react/static/css/main.19d47b61.css.map",
+    "main.03222407.css.map": "/mangata-gallo-react/static/css/main.03222407.css.map",
     "main.e8e77df1.js.map": "/mangata-gallo-react/static/js/main.e8e77df1.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d47b61.css",
+    "static/css/main.03222407.css",
     "static/js/main.e8e77df1.js"
   ]
 }
