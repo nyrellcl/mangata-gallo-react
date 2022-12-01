@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Nav />
+      <HeroSection/>
       <Routes>
         <Route path="/home" element={<HeroSection />} />
         <Route path='/about' element={<About />} />
