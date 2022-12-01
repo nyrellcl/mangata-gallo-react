@@ -23,9 +23,9 @@ function Nav() {
                 {click ? <FaTimes/>: <FaBars/>}
             </nav>
                 <ul className={click ? 'nav-list active': 'nav-list'}>
-                    <li><Link to="mangata-gallo-react/home" onClick={closeMobileMenu}>Home</Link></li>
-                    <li><Link to="mangata-gallo-react/about" onClick={closeMobileMenu}>About</Link></li>
-                    <li><Link to="mangata-gallo-react/products" onClick={closeMobileMenu}>Products</Link></li>
+                    <li><Link to="/home" onClick={closeMobileMenu}>Home</Link></li>
+                    <li><Link to="/about" onClick={closeMobileMenu}>About</Link></li>
+                    <li><Link to="/products" onClick={closeMobileMenu}>Products</Link></li>
                 </ul>
         </header>
     )
