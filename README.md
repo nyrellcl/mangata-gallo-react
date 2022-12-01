@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# Welcome!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first React project! The beginnings of this project was derived from the Meta Front-End Developer Coursera course. We were given a list of subjects and stories to pick out from and create a single web page based on the given story. I picked this story of a jewelry brand that wanted to enhance their web presence to attract more customers and present their jewelry in a new perspective. 
 
-## Available Scripts
+Initially, I created it with simple HTML, SCSS, and JavaScript. Then, when I completed the HTML & CSS In Depth module and moved to React Basics, I decided to immediately put my learnings to use and recreate this project but using React!
 
-In the project directory, you can run:
+This was an extremlely satisfying project, learning on the go helps to strengthen my resourcefullness and ability to read documentation. I was able to learn how to use React hooks and have some hands-on experience on useState! This project also deepened my understanding of React components and how to go about creating sections of a web-page. 
 
-### `npm start`
+This project was also heavily influence by Brian Design on youtube. I followed through his tutorial on making a react website just so I can see how other people structure their code and see how it fits with my style. I also used some of his components and built off of it to include my own take on it. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Colors
+I decided go with an earth tone color palette. I mostly took this idea due to the fact that jewels and such are formed in the ground, so I though an earthy tone to the project would flow nicely. Earth tones also exude harmony in my opinion and with jewelry, harmony is an important aspect when garnering attention and elegance to a jewelry product. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Resources Used
 
-### `npm test`
+React Documentation: https://reactjs.org/docs/getting-started.html 
+Font Awesome w/ React: https://fontawesome.com/docs/web/use-with/react/#contentHeader
+Brian Design Youtube: https://www.youtube.com/watch?v=3nLTB_E6XAM&t=3806s
+Necklace Photo from Pexels: Photo by Lena Shekhovtsova: https://www.pexels.com/photo/silver-necklace-on-white-surface-with-shadow-4019460/
+Earring Photo from Pexels: Photo by The Glorious  Studio : https://www.pexels.com/photo/close-up-shot-of-a-pair-of-earrings-10983783/
+Ring photo from Pexels: https://www.pexels.com/@pixabay/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
