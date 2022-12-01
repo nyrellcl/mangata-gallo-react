@@ -65,6 +65,7 @@
 
 @media only screen and (min-width: 1200px){
     .footer-container__socials__list{
+        width: 40%;
         .fa-brands{
             transition: all 250ms ease-in-out;
             @include hover{

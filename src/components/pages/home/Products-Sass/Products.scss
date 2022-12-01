@@ -1,4 +1,4 @@
-@import "../Global-Sass/colors/colors", "../Global-Sass/fonts/fonts", "../Global-Sass/mixin/mixin";
+@import "../../../Global-Sass/colors/colors", "../../../Global-Sass/fonts/fonts", "../../../Global-Sass/mixin/mixin";
 
 .heading-display{
     display: block;
@@ -50,10 +50,6 @@
                 flex-direction: column;
                 gap: 2rem;
                 width: 90%;
-                .product-img{
-                    width: 100%;
-                    object-fit: contain;
-                }
             }
         }
     }
@@ -73,6 +69,11 @@
                     width: 80%;
                 }
             }
+            &__secondary__content{
+                .product-img{
+                    max-height: rem(500);
+                }
+            }
         }
     }
 }
@@ -90,6 +91,12 @@
         }
         .product-container{
             flex-direction: row;
+            &__secondary__content{
+                .product-img{
+                    object-fit: contain;
+                    max-height: 100%;
+                }
+            }
         }
         .product-container.reverse{
             flex-direction: row-reverse;

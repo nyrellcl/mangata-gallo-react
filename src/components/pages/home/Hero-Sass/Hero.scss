@@ -1,4 +1,4 @@
-@import '../Global-Sass/colors/colors', '../Global-Sass/fonts/fonts', '../Global-Sass/mixin/mixin';
+@import '../../../Global-Sass/colors/colors', '../../../Global-Sass/fonts/fonts', '../../../Global-Sass/mixin/mixin';
 
 /*.hero-section{
     color: #fff;
@@ -76,6 +76,9 @@
     .hero-content{
         h1{
             font-size: 4.5rem;
+        }
+        p{
+            font-size: rem(18);
         }
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Form-Sass/Form.css"
-import {Button} from "./Button"
+import {Button} from "../../Button"
 
 function Form() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { productObjOne, productObjTwo, productObjThree } from '../Data'
+import { productObjOne, productObjTwo, productObjThree } from '../../../Data'
 import Products from "../Products"
 
 

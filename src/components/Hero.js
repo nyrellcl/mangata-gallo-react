@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero-Sass/Hero.css';
+import './pages/home/Hero-Sass/Hero.css';
 import { Button } from './Button'
 import { Link } from 'react-router-dom';
 

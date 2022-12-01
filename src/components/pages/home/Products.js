@@ -1,15 +1,7 @@
 import React from 'react'
 import "./Products-Sass/Products.css";
-import { Button } from './Button';
+import { Button } from '../../Button';
 import { Link } from 'react-router-dom'
-
-
-
-// Import Swiper React components
-//import { Swiper, SwiperSlide } from 'swiper/react';
-//import { Navigation, Pagination} from 'swiper';
-// Import Swiper styles
-//import 'swiper/css/bundle';
 
 function Products({ productName, productDesc, buttonLabel, pic, alt, productDirect, heading2 }) {
     return (
@@ -20,8 +12,7 @@ function Products({ productName, productDesc, buttonLabel, pic, alt, productDire
                     <h3>{productName}</h3>
                     <p>{productDesc}</p>
                 </div>
-                {/* Add swiper here*/}
-                {/* add swiper slide here */}
+    
                 <div className='product-container__secondary__content'>
                 <img src={pic} alt={alt} className='product-img'/>
                 <Link>

@@ -2,13 +2,14 @@ import './Nav-Sass/Nav.css'
 import React, { useState } from 'react'
 import logo from './assets/Asset 2@3x.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const logoStyle ={
     width: "163px",
     height: "18px",
 }
 
-function Nav(props) {
+function Nav() {
     const [click, setClick] = useState(false)
     const handleClick = ()=> setClick(!click)
     const closeMobileMenu = ()=> setClick(false)
@@ -22,9 +23,9 @@ function Nav(props) {
                 {click ? <FaTimes/>: <FaBars/>}
             </nav>
                 <ul className={click ? 'nav-list active': 'nav-list'}>
-                    <li><a href='/' onClick={closeMobileMenu}>{props.first}</a></li>
-                    <li><a href='/' onClick={closeMobileMenu}>{props.second}</a></li>
-                    <li><a href='/' onClick={closeMobileMenu}>{props.third}</a></li>
+                    <li><Link to="/home" onClick={closeMobileMenu}>Home</Link></li>
+                    <li><Link to="/about" onClick={closeMobileMenu}>About</Link></li>
+                    <li><Link to="/products" onClick={closeMobileMenu}>Products</Link></li>
                 </ul>
         </header>
     )

@@ -1,24 +1,21 @@
 import './App.css';
 import React from 'react'
-import Nav from './components/Nav';
-//import { Route, Routes } from 'react-router-dom'
-import HeroSection from './components/Hero-Section/HeroSection';
+import { Route, Routes } from 'react-router-dom'
+import HeroSection from './components/pages/home/Hero-Section/HeroSection';
 import Footer from "./components/Footer"
-import ProductPage from './components/Product-Page/ProductPage';
-import Form from './components/Form';
+import About from './components/pages/about/About'
+import Nav from "./components/Nav";
+import ProductMain from './components/pages/products/ProductMain';
 
 function App() {
   return (
     <>
-      <Nav first="Home"
-        second="About"
-        third="Products" />
-        <HeroSection />
-      {/*<Routes>
-        <Route path="/" component={} />
-  </Routes>*/}
-      <ProductPage />
-      <Form />
+    <Nav />
+      <Routes>
+        <Route path="/home" element={<HeroSection/>} />
+        <Route path='/about' element={<About/>}/>
+        <Route path="/products" element={<ProductMain/>}/>
+  </Routes>
       <Footer />
     </>
       
