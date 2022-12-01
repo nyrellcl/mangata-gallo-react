@@ -20,3 +20,5 @@ Necklace Photo from Pexels: Photo by Lena Shekhovtsova: https://www.pexels.com/p
 Earring Photo from Pexels: Photo by The Glorious  Studio : https://www.pexels.com/photo/close-up-shot-of-a-pair-of-earrings-10983783/
 Ring photo from Pexels: https://www.pexels.com/@pixabay/
 
+# Update 12/1/2022
+I've updated the main navigation using react-router. I also added the about page which expanded the website more. The main focus of this update was to learn how to use react-router so the website is loaded faster. I will be adding a products page and replacing the footer navigation with a Link tag instead of <a> tags.
