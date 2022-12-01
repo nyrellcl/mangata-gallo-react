@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/mangata-gallo-react/static/css/main.03222407.css",
-    "main.js": "/mangata-gallo-react/static/js/main.e8e77df1.js",
+    "main.css": "/mangata-gallo-react/static/css/main.e21571e1.css",
+    "main.js": "/mangata-gallo-react/static/js/main.392f2d97.js",
+    "static/media/pexels-antoni-shkraba-7166976.jpg": "/mangata-gallo-react/static/media/pexels-antoni-shkraba-7166976.108d46056d76538dbe3d.jpg",
     "static/media/pexels-the-glorious-studio-10983783.jpg": "/mangata-gallo-react/static/media/pexels-the-glorious-studio-10983783.d1cbcdf7d150308ddd6f.jpg",
+    "static/media/pexels-tima-miroshnichenko-6263064.jpg": "/mangata-gallo-react/static/media/pexels-tima-miroshnichenko-6263064.c3e32cec3a506efaec89.jpg",
     "static/media/pexels-pixabay-266621.jpg": "/mangata-gallo-react/static/media/pexels-pixabay-266621.7b5b2b76393c9ed16c9e.jpg",
+    "static/media/pexels-towfiqu-barbhuiya-9821386.jpg": "/mangata-gallo-react/static/media/pexels-towfiqu-barbhuiya-9821386.8a5f89cf47c1130662f2.jpg",
     "static/media/pexels-lena-shekhovtsova-4019460.jpg": "/mangata-gallo-react/static/media/pexels-lena-shekhovtsova-4019460.f21678c0fefb298bdec5.jpg",
     "static/media/Asset 3@3x.png": "/mangata-gallo-react/static/media/Asset 3@3x.b3eedbad1ae5d4f3104d.png",
     "static/media/Asset 2@3x.png": "/mangata-gallo-react/static/media/Asset 2@3x.becfeb21f0b90d59d7ec.png",
     "index.html": "/mangata-gallo-react/index.html",
-    "main.03222407.css.map": "/mangata-gallo-react/static/css/main.03222407.css.map",
-    "main.e8e77df1.js.map": "/mangata-gallo-react/static/js/main.e8e77df1.js.map"
+    "main.e21571e1.css.map": "/mangata-gallo-react/static/css/main.e21571e1.css.map",
+    "main.392f2d97.js.map": "/mangata-gallo-react/static/js/main.392f2d97.js.map"
   },
   "entrypoints": [
-    "static/css/main.03222407.css",
-    "static/js/main.e8e77df1.js"
+    "static/css/main.e21571e1.css",
+    "static/js/main.392f2d97.js"
   ]
 }
