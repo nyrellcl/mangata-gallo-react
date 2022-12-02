@@ -12,7 +12,7 @@ function App() {
       <>
         <Nav />
         <Routes>
-          <Route path='/' exact element={<HeroSection />} />
+          <Route path='https://nyrellcl.github.io/mangata-gallo-react/' exact element={<HeroSection />} />
           <Route path='/about' element={<About />} />
           <Route path="/products" element={<ProductMain />} />
         </Routes>
