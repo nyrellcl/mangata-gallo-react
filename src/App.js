@@ -10,13 +10,15 @@ import ProductMain from './components/pages/products/ProductMain';
 function App() {
   return (
     <BrowserRouter>
-      <Nav />
-      <Routes>
-        <Route path="/" exact element={<HeroSection />} />
-        <Route path='/about' element={<About />} />
-        <Route path="/products" element={<ProductMain />} />
-      </Routes>
-      <Footer />
+      <>
+        <Nav />
+        <Routes>
+          <Route path="/" exact element={<HeroSection />} />
+          <Route path='/about' element={<About />} />
+          <Route path="/products" element={<ProductMain />} />
+        </Routes>
+        <Footer />
+      </>
     </BrowserRouter>
 
 
