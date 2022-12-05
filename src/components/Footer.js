@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "./Footer-Sass/Footer.css"
 import logo from "./assets/Asset 3@3x.png"
 
@@ -10,13 +10,13 @@ function Footer() {
         <footer className='footer-container'>
             <div className='footer-container__socials'>
                 <div className='logo-container'>
-                    <a href='/'><img src={logo} height="43px" alt="" className='footer-container__socials__logo' /></a>
+                    <Link to='/'><img src={logo} height="43px" alt="" className='footer-container__socials__logo' /></Link>
                 </div>
 
                 <ul className='footer-container__socials__list'>
-                    <li><a href='/'><i className='fa-brands fa-facebook-square fa-2xl'></i></a></li>
-                    <li><a href='/'><i className='fa-brands fa-square-twitter fa-2xl'></i></a></li>
-                    <li><a href='/'><i className='fa-brands fa-square-instagram fa-2xl'></i></a></li>
+                    <li><Link to='/'><i className='fa-brands fa-facebook-square fa-2xl'></i></Link></li>
+                    <li><Link to='/'><i className='fa-brands fa-square-twitter fa-2xl'></i></Link></li>
+                    <li><Link to='/'><i className='fa-brands fa-square-instagram fa-2xl'></i></Link></li>
                 </ul>
 
             </div>

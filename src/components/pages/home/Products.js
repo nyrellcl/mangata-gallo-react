@@ -15,7 +15,7 @@ function Products({ productName, productDesc, buttonLabel, pic, alt, productDire
     
                 <div className='product-container__secondary__content'>
                 <img src={pic} alt={alt} className='product-img'/>
-                <Link>
+                <Link to="/mangata-gallo-react/products">
                     <Button buttonSize='btn-normal' buttonStyle='btn-secondary'>{buttonLabel}</Button>
                 </Link>
 

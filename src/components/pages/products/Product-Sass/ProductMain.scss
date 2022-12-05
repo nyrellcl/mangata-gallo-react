@@ -1,0 +1,82 @@
+@import "../../../Global-Sass/colors/colors", "../../../Global-Sass/fonts/fonts", "../../../Global-Sass/mixin/mixin";
+
+.title{
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.collection-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-content-container{
+    width: 100%;
+}
+
+@media only screen and (min-width: 375px){
+    .collection-container{
+        @include align-flex;
+        flex-direction: column;
+    }
+
+    .collection-title{
+        text-align: center;
+        margin: 2rem;
+        h2{
+            font-family: $rale, $sans;
+            line-height: rem(28);
+            letter-spacing: rem(1);
+            margin-top: 1.5rem;
+            font-size: rem(18);
+            text-transform: none;
+        }
+    }
+
+    .img-product{
+        width: 100%;
+        max-height: rem(225);
+        object-fit: cover
+    }
+    .product-container{
+        @include align-flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        gap: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: rem(48);
+    }
+    .img-product{
+        width: 80%;
+        max-height: 90%;
+    }
+
+    .collection-title{
+        h2{
+            font-size: rem(20);
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .img-product{
+        width: 100%;
+        max-height: 10rem;
+    }
+
+    .collection-container{
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .collection-title{
+        h2{
+            font-size: rem(22);
+        }
+    }
+}

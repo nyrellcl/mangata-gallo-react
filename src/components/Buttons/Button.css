@@ -41,6 +41,15 @@
   border: 2px solid hsl(283deg, 9%, 47%);
 }
 
+.btn-collection {
+  background-color: hsl(49deg, 85%, 97%);
+  color: #262727;
+}
+.btn-collection:not([disabled]):hover {
+  background-color: transparent;
+  border: 2px solid #262727;
+}
+
 .btn-normal {
   width: 13.5625rem;
   height: 3.5rem;

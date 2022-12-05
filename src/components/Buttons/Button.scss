@@ -42,6 +42,15 @@
     }
 }
 
+.btn-collection{
+    background-color: $cream;
+    color: #262727;
+    @include hover{
+        background-color: transparent;
+        border: 2px solid #262727;
+    }
+}
+
 .btn-normal{
     width: rem(217);
     height: rem(56);

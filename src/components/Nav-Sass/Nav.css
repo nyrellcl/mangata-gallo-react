@@ -16,6 +16,9 @@
     display: block;
     z-index: 10;
   }
+  .shopping-icon-tablet-desktop {
+    display: none;
+  }
   .nav-list {
     display: flex;
     list-style: none;
@@ -24,14 +27,14 @@
     gap: 2rem;
     position: fixed;
     background-color: hsl(29deg, 60%, 93%);
-    right: -100%;
+    left: -100%;
     top: 0;
     height: 100vh;
     width: 100%;
     font-size: 3rem;
     opacity: 0;
     transition: all 0.3s linear;
-    text-align: right;
+    text-align: left;
     margin-left: auto;
     font-family: "Cinzel", serif;
   }
@@ -45,13 +48,16 @@
   }
   .nav-list.active {
     z-index: 3;
-    right: 0;
+    left: 0;
     opacity: 0.98;
   }
 }
 @media only screen and (min-width: 768px) {
-  .menu-icon {
+  .menu-icon, .shopping-icon-mobile {
     display: none;
+  }
+  .shopping-icon-tablet-desktop {
+    display: block;
   }
   .nav-list {
     flex-direction: row;
@@ -60,7 +66,7 @@
     font-size: 1rem;
     position: static;
     justify-content: flex-end;
-    right: 0;
+    left: 0;
     opacity: 1;
   }
 }

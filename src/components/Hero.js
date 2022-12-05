@@ -12,7 +12,7 @@ export default function Hero({
             <article className='hero-content'>
                 <h1 className={lightText ? 'heading' :'heading dark'}>{headline}</h1>
                 <p className={lightTextDesc ? 'hero-subtitle': 'hero-subtitle dark'}>{description}</p>
-                <Link to="/">
+                <Link to="/mangata-gallo-react/products">
                     <Button className={showButton ? 'displayButton': 'noButton'} buttonSize='btn-normal'>{buttonLabel}</Button>
                 </Link>
             </article>
