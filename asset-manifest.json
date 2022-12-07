@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mangata-gallo-react/static/css/main.819437b1.css",
-    "main.js": "/mangata-gallo-react/static/js/main.1163d47d.js",
+    "main.js": "/mangata-gallo-react/static/js/main.0dfde083.js",
     "static/media/pexels-the-glorious-studio-10983781.jpg": "/mangata-gallo-react/static/media/pexels-the-glorious-studio-10983781.4276728c3d0df43fbc94.jpg",
     "static/media/pexels-antoni-shkraba-7166976.jpg": "/mangata-gallo-react/static/media/pexels-antoni-shkraba-7166976.108d46056d76538dbe3d.jpg",
     "static/media/pexels-the-glorious-studio-10983783.jpg": "/mangata-gallo-react/static/media/pexels-the-glorious-studio-10983783.d1cbcdf7d150308ddd6f.jpg",
@@ -16,10 +16,10 @@
     "static/media/Asset 2@3x.png": "/mangata-gallo-react/static/media/Asset 2@3x.becfeb21f0b90d59d7ec.png",
     "index.html": "/mangata-gallo-react/index.html",
     "main.819437b1.css.map": "/mangata-gallo-react/static/css/main.819437b1.css.map",
-    "main.1163d47d.js.map": "/mangata-gallo-react/static/js/main.1163d47d.js.map"
+    "main.0dfde083.js.map": "/mangata-gallo-react/static/js/main.0dfde083.js.map"
   },
   "entrypoints": [
     "static/css/main.819437b1.css",
-    "static/js/main.1163d47d.js"
+    "static/js/main.0dfde083.js"
   ]
 }
