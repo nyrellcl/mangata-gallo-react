@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {Pagination} from 'swiper';
+import {Pagination, Navigation} from 'swiper';
 import 'swiper/css/bundle';
 import '../about/About-Sass/About.css'
 import ring from "../../assets/pexels-pixabay-266621.jpg"
@@ -10,10 +10,11 @@ function AboutProduct() {
   return (
     <section className='swiper-container'>
       <Swiper
-      modules={[Pagination]}
+      modules={[Pagination, Navigation]}
       spaceBetween={50}
       slidesPerView={1}
       loop={true}
+      navigation
       pagination={{clickable: true}}>
       
         <SwiperSlide>

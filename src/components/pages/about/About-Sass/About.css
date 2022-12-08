@@ -16,6 +16,10 @@ body {
   margin: 2rem auto;
 }
 
+.swiper-button-next, .swiper-button-prev {
+  color: hsl(283deg, 9%, 47%);
+}
+
 @media only screen and (min-width: 375px) {
   h1,
 h2 {
