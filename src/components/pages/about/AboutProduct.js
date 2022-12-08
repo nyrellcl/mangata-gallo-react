@@ -14,7 +14,7 @@ function AboutProduct() {
       spaceBetween={50}
       slidesPerView={1}
       loop={true}
-      navigation
+      navigation={{clickable: true}}
       pagination={{clickable: true}}>
       
         <SwiperSlide>
